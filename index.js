@@ -45,8 +45,7 @@ const setStore = function(store) {
         const action = {
           type: `${actionTypeKey}${name}__${mark || ''}`,
           data: state
-        };
-        console.log('action dispatched :', action.type);
+        };        
         store.dispatch(action);
       }
     }
