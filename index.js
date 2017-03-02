@@ -39,8 +39,8 @@ const createReducers = function(defs) {
 const setStore = function(store) {
   _store = store;
 
-  for (let key in _reducers) {
-    _setters[key] = {
+  for (let name in _reducers) {
+    _setters[name] = {
       set: (state, mark) => {
         const action = {
           type: `${actionTypeKey}${name}__${mark || ''}`,
