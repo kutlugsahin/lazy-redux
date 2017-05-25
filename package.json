@@ -1,6 +1,6 @@
 {
   "name": "lazy-redux",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Opinionated version of Redux, no action types and switch cases",
   "main": "index.js",
   "scripts": {
